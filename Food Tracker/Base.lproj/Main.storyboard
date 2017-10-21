@@ -124,7 +124,7 @@
                     <connections>
                         <outlet property="nameTextField" destination="kev-Bc-Teg" id="JxA-W3-FVf"/>
                         <outlet property="photoImageView" destination="bHh-uj-JIy" id="JJ4-4j-qYg"/>
-                        <outlet property="ratingControl" destination="nuB-Gp-fgH" id="NXh-Kl-0hA"/>
+                        <outlet property="ratingControl" destination="gr5-HH-gQb" id="def-NA-fhS"/>
                         <outlet property="saveButton" destination="zJL-EL-d2N" id="6Tt-UA-Swb"/>
                     </connections>
                 </viewController>

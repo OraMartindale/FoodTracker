@@ -3,7 +3,10 @@ import UIKit
 @IBDesignable class RatingControl: UIStackView {
     //MARK: Properties
     private var ratingButtons = [UIButton]()
-    var rating = 0 {
+    var rating: Int = 0 {
+        willSet(newRating) {
+            print("About to set newRating to \(newRating)")
+        }
         didSet {
             updateButtonSelectionStates()
         }
